@@ -9,7 +9,7 @@ topic = "demo-topic"
 
 # Create a Kafka consumer
 consumer = KafkaConsumer(topic,
-                         group_id=group_id,
+                        #  group_id=group_id,
                          bootstrap_servers=bootstrap_servers)
 
 # Define a function to handle messages
